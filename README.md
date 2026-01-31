@@ -63,7 +63,7 @@ MemoRise is a MERN (MongoDB, Express.js, React.js, Node.js) based web applicatio
    
    # Frontend
    cd ../frontend
-   npm start
+   npm run dev
    ```
 
 5. **Access the application** at `http://localhost:5173/`.
@@ -79,25 +79,32 @@ MemoRise is a MERN (MongoDB, Express.js, React.js, Node.js) based web applicatio
 ## Project Structure
 
 ```
-memorise/
-├── backend/                # Backend source files
-│   ├── config/             # Configuration files
-│   ├── controllers/        # Route logic and control functions
-│   ├── models/             # Mongoose models for MongoDB
-│   ├── routes/             # Express routes
-│   ├── utils/              # Utility functions
-│   └── server.js           # Server entry point
-├── frontend/               # Frontend source files
-│   ├── public/             # Public files (index.html, etc.)
-│   ├── src/                # React application source files
-│   │   ├── components/     # React components
-│   │   ├── pages/          # Application pages
-│   │   ├── services/       # API service functions
-│   │   └── App.js          # Main App component
-├── README.md               # Project documentation
-└── .env.example            # Example environment variables
+MEMORISE/
+├── backend/
+│ ├── config/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── utils/
+│ ├── .env
+│ ├── .env.example
+│ ├── server.js
+│ ├── package.json
+│ └── package-lock.json
+│
+├── frontend/
+│ ├── public/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── services/
+│ │ └── App.js
+│ ├── package.json
+│ └── package-lock.json
+│
+└── README.md
 ```
 
 ## Contributing
 
-We welcome contributions from the community! Please feel free to submit issues and pull requests. For major changes, please discuss them in an issue first to ensure alignment with the project goals.
+I welcome contributions from the community! Please feel free to submit issues and pull requests. For major changes, please discuss them in an issue first to ensure alignment with the project goals.
